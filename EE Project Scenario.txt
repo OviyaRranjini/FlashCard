@@ -1,0 +1,46 @@
+**Flashcard Learning Platform:**
+
+**1. Goal:**
+
+Collaborative learning through flashcards, videos, Q&A.
+
+**2. Target Users:**
+
+Students, Teachers, Mentors
+
+**3. Key Features:**
+
+*   **Sign-Up/Profile:** Username and password login. Optional profile details.
+*   **Courses:** Create/find courses with notes, videos, discussions.
+*   **Flashcards:** Create and study digital flashcards.
+*   **Q&A:** Ask and answer course-related questions.
+*   **Notifications:** In-platform notifications for question answers. Optional email if provided.
+*   **Rewards:** Coins/badges for participation.
+*   **Search:** Find courses, questions, users.
+
+**4. Scenarios:**
+
+*   **Sign-Up:** User creates account with username/password.
+*   **Course Enrollment:** User finds and joins a course.
+*   **Flashcard Study:** User reviews flashcards in a course.
+*   **Question/Answer:** User asks a question, another user answers.
+*   **Notification:** User receives notification of an answer.
+*   **Reward:** User gets coins for completing a course or answering a question.
+
+**5.  Username Validation:**
+
+*   Blacklist of prohibited words.
+*   Username length limits.
+*   Unique usernames required.
+
+**6. Technology (Example):**
+
+*   React/Angular/Vue.js Frontend
+*   Node.js/Python Backend
+*   PostgreSQL/MySQL Database
+
+**7. Future:**
+
+*   Gamification
+*   Personalized Learning
+*   Mobile App

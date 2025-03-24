@@ -1,0 +1,148 @@
+**Flashcard Learning Platform: Scenario Document (Consolidated & Ready for Copying)**
+
+**1. Goal:**
+
+To create a platform for collaborative learning using flashcards, videos, notes, and Q&A, encouraging active participation and knowledge sharing.
+
+**2. Target Users:**
+
+*   Students of all levels (K-12, college, professional development)
+*   Teachers/Instructors/Educators
+*   Mentors/Subject Matter Experts
+
+**3. User Stories (Scenarios):**
+
+**3.1. User Sign-up and Profile Creation:**
+
+*   **Scenario:** A student wants to use the platform to study.
+*   **Steps:**
+    1.  The user navigates to the platform's website.
+    2.  They click the "Sign Up" button.
+    3.  They enter a username (e.g., "StudyBuddy123").
+    4.  They enter a secure password.
+    5.  They are prompted to create a profile.
+    6.  In the profile section, they can add:
+        *   Their interests (e.g., Biology, Genetics, Ecology)
+        *   Their current educational level (e.g., High School Junior)
+        *   Their study goals (e.g., Ace Biology Exam)
+        *   Optional information: email address, contact information, work experience, previous qualifications.
+    7.  They save their profile.
+
+**3.2. Course Enrollment and Exploration:**
+
+*   **Scenario:** Alice wants to find a Biology course focused on Cell Biology.
+*   **Steps:**
+    1.  Alice logs into the platform.
+    2.  She searches for "Biology" in the course search bar.
+    3.  She filters the results by "Cell Biology."
+    4.  She finds a course titled "Cell Biology Fundamentals" created by "Dr. Smith" on "2023-10-26".
+    5.  She clicks on the course to view details.
+    6.  She sees the course information:
+        *   Creator: Dr. Smith
+        *   Created Date: 2023-10-26
+        *   Number of Followers: 125
+        *   Description: An introductory course to Cell Biology.
+        *   Preview of course notes and videos
+        *   A comment section where other users can post comments
+    7.  Alice reviews the course content and decides to enroll.
+    8.  She clicks the "Follow" button to add the course to her list.
+    9.  (Optional) Alice checks out the course comments and makes her own
+
+**3.3. Flashcard Creation/Viewing:**
+
+*   **Scenario:** Dr. Smith adds a flashcard to his Cell Biology Fundamentals course
+*   **Steps:**
+    1. Dr. Smith logs in as creator of the "Cell Biology Fundamentals" course
+    2. Dr. Smith navigates to the course content creation screen
+    3. Dr. Smith selects "Create Flashcard"
+    4. Dr. Smith enters the "term" and "definition" for the flashcard.  He can optionally add an image/video to the flashcard.
+    5. Dr. Smith saves the flashcard, adding it to the course's flashcard deck
+
+*   **Scenario:** Alice studies a flashcard.
+*   **Steps:**
+    1. Alice logs into the platform and navigates to the "Cell Biology Fundamentals" course.
+    2. Alice clicks on the "Flashcards" section of the course.
+    3. The first flashcard is displayed.  Alice sees the "term" on one side.
+    4. Alice clicks or taps the flashcard to reveal the "definition" on the other side.
+    5. Alice rates her knowledge of the flashcard (e.g., "Easy," "Medium," "Hard").  This helps the platform prioritize flashcards for her in the future.
+    6. Alice proceeds to the next flashcard.
+
+**3.4. Question Posting and Answering:**
+
+*   **Scenario:** Alice has a question about a specific concept in Cell Biology.
+*   **Steps:**
+    1.  Alice navigates to the "Questions" section of the "Cell Biology Fundamentals" course.
+    2.  She clicks "Ask a Question."
+    3.  She types her question: "What is the difference between mitosis and meiosis?"
+    4.  She optionally adds a relevant image or a video clip.
+    5.  She selects a category for the question (e.g., Cell Division, Genetics).
+    6.  She posts the question.
+    7.  The question is displayed in the question feed, showing:
+        *   Question text
+        *   Date posted
+        *   Poster's name (Alice)
+    8.  A notification is not sent to all users, only users actively following the question tag or course related to question.
+    9.  Another user, "Bob," who is knowledgeable about Cell Biology, sees Alice's question.
+    10. Bob clicks on the question.
+    11. Bob types an answer: "Mitosis results in two identical daughter cells, while meiosis results in four genetically different daughter cells."
+    12. (Optional) Bob can include a link to a helpful video or relevant notes.
+    13. Bob posts his answer.
+
+**3.5. Notification System:**
+
+*   **Scenario:** Alice posted a question and Bob answered it, but Alice did not provide an email address.
+*   **Steps:**
+    1.  Bob posts his answer to Alice's question.
+    2.  The system generates a notification for Alice *within the platform itself*.
+    3.  Alice receives a notification *within the platform* (e.g., a red dot on a notification icon, a pop-up within the app or website): "Bob has answered your question: 'What is the difference between mitosis and meiosis?'"
+    4.  Alice clicks on the notification *within the platform* to view Bob's answer.
+    5.  Other users who follow the question thread or have set preferences to related notifications will NOT be notified that Bob answered Alice's question, unless they have followed that specific question.
+    6.  All users can view the answers to questions on the question feed, regardless of whether they received a notification.
+    7.  If Alice *did* provide an email address during profile creation, and has enabled email notifications, she *also* receives an email notification.
+
+**3.6. Reward System:**
+
+*   **Scenario 1: Course Completion**
+    1. Alice consistently follows the "Cell Biology Fundamentals" course.
+    2. She reviews all notes, watches all videos, and participates in discussions.
+    3. The platform recognizes her activity (e.g., based on time spent, completion of quizzes, participation in forums).
+    4. Upon completing all course requirements, Alice receives a "Course Completion" badge on her profile and 50 coins.
+*   **Scenario 2: Answering Questions**
+    1. Bob answers Alice's question about mitosis and meiosis.
+    2. Alice marks Bob's answer as "Helpful."  Other users also upvote Bob's answer.
+    3. The platform recognizes Bob's helpfulness (e.g., based on upvotes, marked as "best answer").
+    4. Bob receives 25 coins for providing a valuable answer.
+
+**4. Key Features (Summarized):**
+
+*   **User Authentication:** Secure sign-up and login with *username* and password. Optional email address for enhanced features.
+*   **Course Management:** Creation, discovery, and enrollment in courses with notes, videos, and a discussion forum.
+*   **Flashcard Creation and Viewing:** Allows creating decks of digital flashcards which users can then study.
+*   **Question and Answer System:** A forum for users to ask and answer questions related to course content.
+*   **Notification System:** Targeted *in-platform* notifications for question answers. Email notifications if the user has provided an email and enabled them.
+*   **Reward System:** Coins and badges for active participation and achievement.
+*   **Search:**  Ability to search for courses, questions, and users.
+*   **Profile Management:**  Users can customize their profiles with interests, skills, and other relevant information.
+*   **Username Validation:**  Enforce username rules to prevent inappropriate usernames.
+
+**5. Username Validation Rules:**
+
+*   **Blacklist:** A list of prohibited words (profanity, sexually suggestive terms, hate speech, etc.).  Usernames containing these words will be rejected.
+*   **Length:** Minimum and maximum username length (e.g., 3-20 characters).
+*   **Character Restrictions:** Allowed characters (e.g., alphanumeric characters, underscores).
+*   **Uniqueness:** Usernames must be unique.
+*   **Moderation:** Implement a system for reporting inappropriate usernames.  Administrators will review reported usernames and take appropriate action (e.g., username change request, account suspension).
+
+**6. Technology Stack (Example):**
+
+*   **Frontend:** React, Angular, or Vue.js
+*   **Backend:** Node.js, Python (Django/Flask), or Ruby on Rails
+*   **Database:** PostgreSQL, MySQL, or MongoDB
+*   **Cloud Hosting:** AWS, Google Cloud, or Azure
+
+**7. Future Considerations:**
+
+*   Gamification: Further expand the reward system with leaderboards, challenges, and levels.
+*   Personalized Learning:  Use machine learning to recommend courses and content based on user interests and learning styles.
+*   Mobile App:  Develop native mobile apps for iOS and Android.
+*   Integration with other learning platforms: Allow users to import and export content from other platforms.
