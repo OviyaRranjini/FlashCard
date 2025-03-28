@@ -13,7 +13,7 @@ To create a platform for collaborative learning using flashcards, videos, notes,
 **3. User Stories (Scenarios):**
 
 **3.1. User Sign-up and Profile Creation:**
-
+ 
 *   **Scenario:** A student wants to use the platform to study.
 *   **Steps:**
     1.  The user navigates to the platform's website.
